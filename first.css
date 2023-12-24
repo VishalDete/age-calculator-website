@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+h1{
+   position: absolute; 
+   margin-left: 600px;
+   margin-top: 15px;
+   color: azure;
+   animation-name: h;
+   animation-duration: 4s;
+   text-shadow: #fe5704 2px 2px;
+   
+}
+
+.box{
+width: 755px;
+background-image: linear-gradient(43deg, #f8af11 0%, #f36822 46%, #e30b94 100%);
+height: 550px;
+position: absolute;
+display: flex;
+margin-left: 350px;
+margin-top: 85px;
+border-radius: 27px;
+animation-duration: 3s;
+animation-name: box;
+
+}
+
+@keyframes box {
+    from{
+      margin-top: 0%;
+ 
+    }
+    to{
+  
+      margin-top: 5%;
+    }
+  }
+  .box:hover{
+       transition: all ease 1s;
+    box-shadow: 1px 5px 3px 5px whitesmoke;
+  }
+  @keyframes h{
+    from{
+      margin-top: 7%;
+     
+    }
+    to{
+  
+      margin-bottom: 0%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+.box h3{
+   margin-left: 20%;
+    font-size: 33px;
+    margin-top: 5%;
+color: rgb(0, 0, 0);
+    position: absolute;
+  
+
+}
+#date{
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 30%;
+ background: #ffffff;
+border-radius: 10px;
+width: 25%;
+height: 7%;
+box-shadow: rgb(27, 26, 26) 2px 7px 5px;
+color: rgb(6, 14, 14);
+font-family: cursive;
+cursor: pointer;
+}
+ul{
+font-weight: bolder;
+  font-style: italic;
+font-size: 26px;
+    margin-left: 35%;
+    margin-top: 20%;
+  font-family: cursive;
+text-shadow: blue;
+
+}
+#btnone{
+  cursor: pointer;
+    background-color: rgb(248, 248, 246);
+    width: 99px;
+    height: 46px;
+    position: absolute;
+    margin-top:54% ;
+    border-radius: 5px;
+    box-shadow: black 5px 4px 2px;
+    animation-name: bt;
+    animation-duration: 9s;
+    border: 2px solid black;
+left: 22%;
+}   
+
+  #btnone:hover{
+    transition: all ease 1s;
+ box-shadow: 1px 0px 2px 2px rgb(12, 12, 12);
+ max-width: 99px;
+ overflow-y: hidden;
+color: rgb(10, 10, 10);
+}
+#btwo{
+  background-color: rgb(248, 248, 246);
+  width: 99px;
+  height: 46px;
+  position: absolute;
+  margin-top:54% ;
+  border-radius: 5px;
+  box-shadow: black 5px 4px 2px;
+  animation-name: bttwo;
+  animation-duration: 9s;
+  border: 2px solid black;
+color: black;
+margin-left: 60%;
+overflow-y: hidden;
+right: 33%;
+cursor: pointer;
+}  
+#btwo:hover{
+  transition: all ease 1s;
+box-shadow: 1px 0px 2px 2px rgb(12, 12, 12);
+max-width: 99px;
+overflow-y: hidden;
+color: rgb(10, 10, 10);
+}
+@media(max-width:310px){
+.box{
+  width: 400px;
+margin-right: 5%;
+}
+h1{
+  width: 100px;
+}
+}
